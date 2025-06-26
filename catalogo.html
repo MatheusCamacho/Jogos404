@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogos 404 - Reviews</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1e1e1e;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color:rgb(49, 48, 48);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    header h1 {
+      font-size: 2.4em;
+      margin: 0;
+      color: #fff;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin-right: 4rem;
+
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #2a2a2a;
+      border-radius: 16px;
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      transition: 1s background;
+
+    }
+
+    .card img {
+      width: 150px;
+      height: 200px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 2px solid #b30000;
+    }
+    .card:hover{
+      height: 210px;
+      background-color: #616060;
+    }
+
+    .info {
+      flex: 1;
+    }
+
+    .info h2 {
+      font-size: 1.6em;
+      margin-bottom: 8px;
+      color: #ff4d4d;
+    }
+
+    .info p {
+      margin: 4px 0;
+      font-size: 1.1em;
+    }
+
+    .review {
+      font-style: italic;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Jogos 404">
+    <h1>Jogos 404</h1>
+  </header>
+  <div class="container">
+    <div class="card">
+      <img src="https://f4.bcbits.com/img/a4218237573_16.jpg" alt="Imagem do Jogo">
+      <div class="info">
+        <h2>Bloodborne</h2>
+        <p><strong>Categoria:</strong> Souslike</p>
+        <p><strong>Desenvolvedora:</strong> Fromsoftware</p>
+        <p class="review">"10/10 O melhor jogo."</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://blog-frontend.envato.com/cdn-cgi/image/width=837,quality=75,format=auto/uploads/sites/2/2023/12/gta_v_cover_art-837x1024.jpg" alt="Imagem do Jogo">
+      <div class="info">
+        <h2>Gta V</h2>
+        <p><strong>Categoria:</strong> Acao</p>
+        <p><strong>Desenvolvedora:</strong> Rockstar</p>
+        <p class="review">"9/10 Ragdoll muito realista."</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/59/Far_cry_3_box_art.jpg/270px-Far_cry_3_box_art.jpg" alt="Imagem do Jogo">
+      <div class="info">
+        <h2>Far Cry 3</h2>
+        <p><strong>Categoria:</strong> Acao</p>
+        <p><strong>Desenvolvedora:</strong> Ubisoft</p>
+        <p class="review">"8/10 Muito interessante e divertido."</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
